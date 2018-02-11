@@ -12,7 +12,7 @@ body {
 
 /* general */
 
-.container {
+h1 {
   width: 100%;
   max-width: 960px;
   margin: 0 auto;
@@ -239,15 +239,15 @@ input[type=submit] {
 }
 
 @media (max-width: 980px) 
-  {     .container 
-    {         width: 100%;     } 
+  {     h1 
+    {         color: red;     } 
   }   
 
 @media (max-width: 768px) 
-  {     .container 
-    {         width: 50%;     } }
+  {     h1 
+    {         color: blue;     } }
 
 
 @media (max-width: 640px) 
-  {     .container 
+  {     h1 {color: green;}
     }
